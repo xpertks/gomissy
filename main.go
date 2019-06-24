@@ -4,6 +4,9 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
+
+	"github.com/xpertks/gomissy/controllers"
+	"github.com/xpertks/gomissy/models"
 )
 
 func main() {
