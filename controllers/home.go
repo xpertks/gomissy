@@ -16,7 +16,7 @@ func (c HomeController) Init(g *echo.Group) {
 }
 
 func (HomeController) Get(c echo.Context) error {
-	fmt.Println("Home Controller")
+	println("Home Controller")
 
 	data := {
 		Name:  "Jon",
